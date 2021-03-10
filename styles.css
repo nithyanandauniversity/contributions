@@ -1,0 +1,24 @@
+body {
+    
+}
+.imgGrp{
+    background-color: #f8f8f8;
+    padding: 2%;
+    display : flex;
+    flex-wrap: wrap;
+    margin : 10px;
+}
+.imgGrp__imgbox{
+    border : 1px solid #a0a0a0;
+    background-color: #f4f4f4;
+    width : 45%;
+}
+.imgGrp__imgbox > img{
+    width : 100%;
+}
+.imgGrp__imgbox > svg{
+    width : 100%;
+}
+.imgGrp__caption{
+    text-align: center;
+}
